@@ -15,10 +15,10 @@ public class GameStateManager {
         states.push(state);
     }
     public void pop(){
-        states.pop();
+        states.pop().dispose();
     }
     public void set(state state){
-        states.pop();
+        states.pop().dispose();
         states.push(state);
     }
     public void update(float dt){
