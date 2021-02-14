@@ -92,7 +92,7 @@ public class PlayState extends state {
         bg.dispose();
         bird.dispose();
         ground.dispose();
-        
+
         for(Tube tube : tubes)
             tube.dispose();
         System.out.println("Play State Disposed");
